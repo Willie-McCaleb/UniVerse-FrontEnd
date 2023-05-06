@@ -1,0 +1,13 @@
+.events-container {
+  display: flex;
+  height: 100vh;
+}
+
+.cards {
+  flex: 1 1 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10px;
+  height: 80vh;
+  overflow: scroll;
+}

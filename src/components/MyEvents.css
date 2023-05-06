@@ -1,0 +1,60 @@
+.myEvents {
+  display: flex;
+  justify-content: center;
+}
+
+.myEvents .container {
+  width: 1400px;
+  padding: 120px 100px;
+}
+
+.myEvents .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myEvents .btn {
+  text-decoration: none;
+  background: #d87728;
+  padding: 0.8rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.myEvents table {
+  width: 100%;
+}
+.myEvents table tr {
+  height: 50px;
+}
+.myEvents table tr td:nth-child(even) {
+  color: #d87728;
+}
+.myEvents table tr td img {
+  width: 50px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.myEvents table tr td i {
+  width: 20px;
+  cursor: pointer;
+  color: red;
+}
+.myEvents table tr td i:nth-child(2) {
+  color: blue;
+}
+
+.myEvents .cat-events h2 {
+  text-align: start;
+  border-top: 2px solid;
+}
+.myEvents .cat-events h2:first-child {
+  border: none;
+}

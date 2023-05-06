@@ -1,0 +1,205 @@
+.addEvent {
+  display: flex;
+  justify-content: center;
+}
+
+.addEvent .container {
+  width: 1400px;
+  padding: 140px 0px 120px;
+  text-align: initial;
+}
+
+.addEvent .section {
+  padding: 0 250px;
+}
+
+.addEvent .breadCrumbs {
+  padding: 0;
+}
+
+.addEvent .section .basic,
+.location,
+.date-time,
+.price {
+  padding: 60px 100px;
+}
+
+.addEvent .section .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18px;
+  padding: 0;
+}
+.addEvent h2 {
+  margin: 0;
+}
+.addEvent h3 {
+  text-align: start;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+.addEvent p {
+  text-align: start;
+  color: #39364f;
+  margin: 20px 0;
+  font-size: 0.875rem;
+}
+
+.imagesInputs {
+  display: flex;
+  gap: 10px;
+}
+
+.addEvent label {
+  color: #555;
+  font-size: 14px;
+}
+
+.addEvent .section .info i {
+  font-size: 40px;
+  color: #d87728;
+}
+
+.addEvent .section .allInfo {
+  padding: 0 0 15px 58px;
+}
+
+.addEvent .section .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.addEvent .section input,
+select,
+textarea {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  border-color: #555;
+  border: 1px solid #c1c0c0;
+  color: #555;
+}
+
+.addEvent .section select {
+  width: auto;
+}
+
+.addEvent .sub-para {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.addEvent .img {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.addEvent .img button {
+  text-decoration: none;
+  background: #fff;
+  padding: 0.8rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  width: 25%;
+  color: #d87728;
+}
+
+button {
+  cursor: pointer;
+}
+
+.addEvent .img .cover,
+.multiple {
+  margin-top: 10px;
+  width: initial;
+}
+
+.addEvent .location .up {
+  margin: 10px 0;
+}
+
+.addEvent .location .second-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.addEvent form button {
+  text-decoration: none;
+  background: #fff;
+  padding: 0.8rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #d87728;
+  text-transform: uppercase;
+}
+
+.addEvent .dt,
+.td {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.addEvent .dt {
+  margin-bottom: 15px;
+}
+
+.addEvent .td {
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.addEvent .price {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.addEvent .price input {
+  width: auto;
+}
+
+.addEvent .discard,
+.create {
+  text-decoration: none;
+  background: #fff;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #d87728;
+  text-transform: uppercase;
+}
+
+.addEvent .create {
+  background-color: #d87728;
+  color: #fff;
+}
+
+.addEvent .discard {
+  border: 2px solid #6c6c6c;
+  color: #6c6c6c;
+}
+
+.addEvent .btn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0;
+}

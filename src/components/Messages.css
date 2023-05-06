@@ -1,0 +1,51 @@
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.messages .container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+
+.messages .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.messages .btn {
+  text-decoration: none;
+  background: #d87728;
+  padding: 0.8rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.messages table {
+  width: 100%;
+}
+.messages table tr {
+  height: 100px;
+}
+.messages table tr td {
+  padding: 10px;
+}
+
+.messages table tr td:first-child {
+  font-weight: 500;
+}
+
+.messages table tr td .link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.messages table tr.active {
+  color: #d87728;
+}

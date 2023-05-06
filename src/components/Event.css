@@ -1,0 +1,272 @@
+/* Members Component Style is here */
+
+.event {
+  display: flex;
+  justify-content: center;
+  text-align: initial;
+}
+
+.event .container {
+  width: 1400px;
+  padding: 140px 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.breadCrumbs {
+  font-weight: 300;
+  font-size: 13px;
+  color: #555;
+}
+
+.event h1 {
+  margin: 5px 0;
+  text-align: center;
+}
+.event h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.event p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #555;
+  line-height: 25px;
+}
+
+.event .user span {
+  font-size: 11px;
+  padding: 0;
+  text-align: center;
+}
+
+.event .user {
+  justify-content: space-between;
+  cursor: default;
+  padding: 0 50px;
+}
+
+.user .info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.user .btn {
+  text-decoration: none;
+  background: #fff;
+  padding: 0.8rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #d87728;
+  text-transform: uppercase;
+}
+
+.left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slider img {
+  max-height: 450px;
+  object-fit: contain;
+}
+
+.event .members .user {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.event .desc {
+  padding: 0 50px;
+}
+
+.event .members,
+.mem {
+  padding: 0 50px;
+}
+
+.event .members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member-info img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.members .member-info span {
+  font-size: 14px;
+}
+
+.user .school {
+  color: #d87728;
+}
+
+.members .member-info .school {
+  font-size: 12px;
+  color: #d87728;
+}
+
+.event .UserMem {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15px;
+}
+
+.event .oneMem {
+  margin: 15px 0;
+}
+
+.event .add {
+  text-align: center;
+}
+
+.event .add button {
+  text-align: center;
+  background-color: #d87728;
+  color: #fff;
+}
+
+.right {
+  flex: 1;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 150px;
+  max-height: 500px;
+  height: max-content;
+}
+
+.event .right .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.event .right .location {
+  padding: 0;
+}
+
+.right .price h2,
+h3 {
+  margin: 0;
+  font-weight: 300;
+}
+
+.event button {
+  text-decoration: none;
+  background: #fff;
+  padding: 0.8rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #d87728;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.right .price h3 {
+  font-weight: 500;
+  color: #d87728;
+}
+
+.right .price p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.right .time-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right i {
+  padding-right: 10px;
+  color: #6c6c6c;
+}
+
+.right span {
+  font-size: 12px;
+}
+
+.right .location {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 8px;
+}
+
+.right .address {
+  color: #555;
+  margin-top: 10px;
+}
+
+.right .location .info {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.submit i {
+  padding: 0;
+}
+
+.submit button {
+  text-decoration: none;
+  background: #fff;
+  padding: 0.8rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  border: 2px solid #d87728;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #d87728;
+  text-transform: uppercase;
+}
+
+.submit .shareBtn {
+  border: 2px solid #6c6c6c;
+  color: #6c6c6c;
+}
+
+.submit .attendBtn {
+  background-color: #d87728;
+  color: #fff;
+  cursor: pointer;
+}

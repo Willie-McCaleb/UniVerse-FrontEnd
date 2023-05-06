@@ -1,0 +1,80 @@
+.link {
+  text-decoration: none;
+  color: initial;
+}
+
+.eventCard {
+  width: 295px;
+  height: 390px;
+  border-radius: 10%;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+}
+
+.eventCard i {
+  padding-right: 10px;
+  font-size: 0.8rem;
+  color: #6c6c6c;
+}
+
+.eventCard span {
+  font-size: 0.8rem;
+  color: #6c6c6c;
+}
+
+.eventCard h2 {
+  margin: 0.8rem;
+}
+
+.eventCard img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10% 10% 0 0;
+}
+
+.info {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+}
+.info .time-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info .card-title {
+  font-size: 0.8rem;
+}
+
+.eventCard.location-price {
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+  align-items: flex-start;
+}
+
+.eventCard .location {
+  padding: 0;
+  text-align: initial;
+}
+
+.eventCard .price {
+  padding: 0;
+  text-align: initial;
+}
+
+.card-bottom {
+  /* padding: 10px 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.attendee {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
