@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-  baseURL: "https://universe-senior.herokuapp.com/api/",
+  baseURL: "https://universe-backend-y14p.onrender.com/api/",
   withCredentials: true,
 });
 
