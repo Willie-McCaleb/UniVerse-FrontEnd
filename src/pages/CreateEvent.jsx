@@ -8,7 +8,6 @@ function CreateEvent() {
     <div>
       <Navbar />
       <Add />
-      <Footer />
     </div>
   );
 }

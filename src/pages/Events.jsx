@@ -10,7 +10,6 @@ function Events() {
       <Navbar />
       <SearchBar />
       <ListEvents />
-      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ function MessagesPage() {
   return (
     <div>
       <Messages />
-      <Footer />
+     
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Chat() {
   return (
     <div>
       <GroupChat />
-      <Footer/>
+   
     </div>
   );
 }

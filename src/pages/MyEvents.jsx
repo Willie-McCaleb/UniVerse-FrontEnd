@@ -8,7 +8,6 @@ function MyEventsPage() {
     <div>
       <Navbar />
       <MyEvents />
-      <Footer />
     </div>
   );
 }
